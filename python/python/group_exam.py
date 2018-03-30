@@ -112,8 +112,10 @@ class PostcardList(object):
     # https://www.tutorialspoint.com/python/dictionary_items.htm
             if from_sender == sender:
                 chosen_sender += [self._postcards[l] for l in lines]
+                #print(chosen_sender)
         return chosen_sender
-      
+
+   
 # ************************* Class for Unit tests *************************
 class Test(unittest.TestCase):
 
